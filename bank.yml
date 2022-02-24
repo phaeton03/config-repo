@@ -41,7 +41,7 @@ management:
       show-details: always
 
 info:
-  version: @project.version@
+  version: project.version
   author: nsnikolsky
   descriptiion: Bank Actuator
 
