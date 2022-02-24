@@ -47,8 +47,8 @@ info:
 schedule-task:
   transactions:
     fixedDelay:
-      financial-intermediary: 1000
-      bank: 2000
+      financial-intermediary: 5000
+      bank: 10000
 
 client:
   bank:

@@ -47,7 +47,7 @@ info:
 schedule-task:
   transactions:
     fixedDelay:
-      bank: 2000
+      bank: 5000
 
 client:
   correspodent-bank:
