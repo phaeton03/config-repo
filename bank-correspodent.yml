@@ -29,7 +29,7 @@ spring:
 logging:
   level:
     root:
-      ERROR
+      INFO
 
 management:
   endpoints:
