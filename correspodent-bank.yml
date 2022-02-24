@@ -29,7 +29,7 @@ spring:
 logging:
   level:
     root:
-      ERROR
+      INFO
 
 management:
   endpoints:
@@ -41,15 +41,14 @@ management:
       show-details: always
 
 info:
-  version: @project.version@
   author: nsnikolsky
   descriptiion: Bank Actuator
 
 schedule-task:
   transactions:
     fixedDelay:
-      financial-intermediary: 1000
-      bank: 2000
+      financial-intermediary: 5000
+      bank: 8000
 
 client:
   bank:
