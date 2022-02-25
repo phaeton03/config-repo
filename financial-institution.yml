@@ -47,4 +47,4 @@ info:
 schedule-task:
   transactions:
     financial-institution:
-      fixedDelay: 5000
+      fixedDelay: 50000
